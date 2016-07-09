@@ -17,17 +17,19 @@ div {
 	border: 1px solid Chocolate;
 }
 
+.content {
+	padding: 0px 15px;
+	margin: 0 auto;
+	width: 970px;
+}
+
 /* Navigation Section*/
 .top-navigation {
 	background-color: #fff;
 }
 
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
-	padding: 0px 15px;
-	
+.top-navigation > .content {	
+	height: 70px;	
 	font-size: 16px;
 	letter-spacing: 0.03em;
 }
@@ -60,7 +62,7 @@ div {
 	cursor: pointer;
 }
 
-/*Jumbotron Section*/
+/*Intorduction Section*/
 
 .introduction {
 	height: 45.938rem;
@@ -68,5 +70,23 @@ div {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
+}
+
+.introduction .content {
+	height: 45.938rem;	
+}
+
+.introduction h1 {
+	font-size: 3rem;
+	margin-top: 17rem;
+}
+
+.introduction h3 {
+	font-size: 1.5rem;
+}
+
+.introduction h1, .introduction h3 {
 	color: white;
+	text-align: center;
+	font-weight: 100;
 }
