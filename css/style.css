@@ -1,5 +1,16 @@
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 div {
@@ -15,4 +26,47 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+	
+	font-size: 16px;
+	letter-spacing: 0.03em;
+}
+
+.top-navigation .links > .active a {
+	color: #4c5058;
+	font-weight: 500;
+	transition: color 0.25s;
+}
+
+.top-navigation .links {
+	float: right;
+}
+
+.top-navigation .links > li, a {
+	display: inline-block;
+	margin-top: 0.25em;
+	margin-left: 15px;
+	color: #838994;
+	transition: color 0.25s;
+	text-decoration: none;	
+}
+
+.top-navigation .active a:hover {
+	color: #333333;
+}
+
+.top-navigation .links li, a:hover {
+	color: #333333;
+	cursor: pointer;
+}
+
+/*Jumbotron Section*/
+
+.introduction {
+	height: 45.938rem;
+	background: url(../images/first-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	color: white;
 }
