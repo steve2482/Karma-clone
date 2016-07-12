@@ -13,10 +13,6 @@ body {
 
 }
 
-div {
-	border: 1px solid Chocolate;
-}
-
 button {
 	padding: 1rem 1.5rem;
 	text-shadow: none;
@@ -161,3 +157,63 @@ button {
 	height: 127px;
 	width: 127px;
 }
+
+/*Footer Section*/
+
+.social {
+	background: white;
+}
+
+.social .content {
+	text-align: center;
+}
+
+.social .icons {	
+	justify-content: center;
+	align-items: center;	
+	display: inline-flex;
+	width: 100%;
+
+}
+
+.social p {
+	border-top: 1px solid lightgrey;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: .5rem
+}
+
+.social ul {
+	padding: 0;
+}
+
+.social li {
+	list-style: none;
+	display: inline-block;
+	margin: .5rem;
+	border: 1px solid #eaebec;	
+	border-radius: 100%;
+	height: 35px;
+	width: 35px;
+	padding: .5rem 0;
+}
+
+.social li:hover {
+	cursor: pointer;
+}
+
+.fa-twitter {
+	color: #00ACED;
+}
+
+.fa-facebook, .fa-instagram {
+	color: #3B5998;
+}
+
+.social .copy {
+	color: lightgrey;
+	font-weight: 700;
+}
+
+
+
