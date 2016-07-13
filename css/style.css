@@ -173,7 +173,6 @@ button {
 	align-items: center;	
 	display: inline-flex;
 	width: 100%;
-
 }
 
 .social p {
@@ -187,7 +186,7 @@ button {
 	padding: 0;
 }
 
-.social li {
+.fa {
 	list-style: none;
 	display: inline-block;
 	margin: .5rem;
@@ -198,7 +197,7 @@ button {
 	padding: .5rem 0;
 }
 
-.social li:hover {
+.fa:hover {
 	cursor: pointer;
 }
 
@@ -214,6 +213,3 @@ button {
 	color: lightgrey;
 	font-weight: 700;
 }
-
-
-
